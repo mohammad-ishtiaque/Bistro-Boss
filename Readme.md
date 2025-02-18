@@ -49,7 +49,7 @@ Provide step-by-step installation instructions:
 
 ```bash
 # Clone the repository
-git clone <https://github.com/mohammad-ishtiaque/Bistro-Boss>
+git clone https://github.com/mohammad-ishtiaque/Bistro-Boss
 
 # Navigate to the project directory
 cd Bistro-Boss
