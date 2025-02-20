@@ -1,5 +1,5 @@
 import React from 'react'
-
+import logo from '../assets/logo.png'
 
 const Navbar = () => {
     const navOptions =
@@ -29,7 +29,7 @@ const navOptions2 =
 </>
     return (
         <>
-            <div className="navbar fixed z-10 max-w-screen-xl mx-auto bg-opacity-30 text-white shadow-sm">
+            <div className="navbar z-1 max-w-screen-xl mx-auto opacity-60 text-white shadow-sm">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -37,7 +37,10 @@ const navOptions2 =
                         </div>
                         {navOptions2}
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <a className="">
+                        <p className='uppercase text-xl'>BISTRO BOSS</p>
+                        <p>Restaurant</p>
+                    </a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     {navOptions}

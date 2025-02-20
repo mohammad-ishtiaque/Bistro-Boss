@@ -1,2 +1,7 @@
 @import "tailwindcss";
 @plugin "daisyui";
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css
+
+.featured-item {
+    background:  url('./assets/home/featured.jpg');
+}
